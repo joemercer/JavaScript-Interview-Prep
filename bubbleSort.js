@@ -1,6 +1,9 @@
 // Let's try to sort this list
 var unsorted = [5,3,1,7,6,2,9,8,10,4];
+console.log('Let\'s sort this list:');
+console.log(unsorted);
 
+// Define BubbleSort
 var BubbleSort = function(unsorted) {
 	var next, temp;
 	for (var i = 0; i < unsorted.length; ++i) {
@@ -18,4 +21,5 @@ var BubbleSort = function(unsorted) {
 BubbleSort(unsorted);
 
 // Let's make sure it worked
+console.log('Sorted using BubbleSort:');
 console.log(unsorted);
