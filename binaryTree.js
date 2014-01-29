@@ -40,7 +40,7 @@ binaryTree.left.addRight(sortedNodes[2]);
 binaryTree.right.addLeft(sortedNodes[4]);
 binaryTree.right.addRight(sortedNodes[6]);
 
-// In order traversal
+// In order traversal of binary tree
 var InOrderTraversal = function(node) {
 	if (node.left) {
 		InOrderTraversal(node.left);
@@ -49,9 +49,27 @@ var InOrderTraversal = function(node) {
 	if (node.right) {
 		InOrderTraversal(node.right);
 	}
-}
+};
 
 // Run it
 console.log('In order traversal of our Binary Tree:');
 InOrderTraversal(binaryTree);
+
+// Height of binary tree
+var FindHeight = function(root) {
+	if (!root) {
+		return 0;
+	}
+	return Math.max(FindHeight(root.left), FindHeight(root.right)) + 1;
+};
+
+// Run it
+console.log('The height of our Binary Tree is:');
+console.log(FindHeight(binaryTree));
+
+
+
+
+
+
 
