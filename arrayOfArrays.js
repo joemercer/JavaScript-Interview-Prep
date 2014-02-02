@@ -3,6 +3,28 @@
 // or I need a general algorithm to make
 // else I'm just randomly manipulating stuff
 
+
+// Problem 1:
+// Given mapping of items to tags, generate mapping of tags to items
+
+// Problem 2:
+// Given mapping of items to tags, generate mapping of items to items that share a tag
+
+// Problem 3:
+// Given a mapping of items to tags, generate a graph with items as vertices and edges 
+// representing items that share a similar tag
+
+// Problem 4:
+// Given a mapping of items to tags, generate a graph with tags as vertices and edges
+// representing tags that share a similar item
+
+
+// ?
+// Can you do some of these tasks without transforming the mapping into a graph
+// How should you store the graph - array of nodes, single root node, mapping of thing to node, hmm...
+
+
+
 // Six degrees of seperation
 var numMovies = 10;
 var numActorsPerMovie = 1;
