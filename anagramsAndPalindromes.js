@@ -17,9 +17,9 @@ var checkAnagram = function(a, b) {
 
 	var bChars = b.split('');
 	for (var i=0; i<bChars.length; ++i) {
-		if (aCharMap[bChar]) {
-			aCharMap[bChar] = aCharMap[bChar] - 1;
-			if (aCharMap[bChar] < 0) {
+		if (aCharMap[bChars[i]]) {
+			aCharMap[bChars[i]] = aCharMap[bChars[i]] - 1;
+			if (aCharMap[bChars[i]] < 0) {
 				// => b contains more of a type of character than a
 				return false;
 			}
@@ -81,6 +81,19 @@ tests.forEach(function(test){
 	console.log(test.input);
 	console.log(checkPalindrome(test.input));
 });
+
+console.log('And now for some anagrams');
+
+console.log('bob','obb');
+console.log(checkAnagram('bob','obb'));
+
+console.log('apple','pepal');
+console.log(checkAnagram('apple','pepal'));
+
+console.log('apple','apppe');
+console.log(checkAnagram('apple','apppe'));
+
+
 
 
 
