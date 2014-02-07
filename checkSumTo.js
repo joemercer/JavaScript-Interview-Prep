@@ -1,3 +1,5 @@
+//!!! better would be to do a dynamic programming solution
+
 // Given an array (numbers) find the k-tuples (k) that sum to
 // a target number (sumTo)
 
