@@ -1,8 +1,4 @@
-interview-a-la-JavaScript
+Interview Prep
 =========================
 
-Me prepping for technical interviews
-
-=========================
-
-Yup, it's pretty rough stuff. I'll try to write a more illuminating blog post later.
+My technical interview prep. Done in Javascript. Use Node to run.

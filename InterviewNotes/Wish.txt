@@ -1,0 +1,7 @@
+Wish
+
+- Merge function from MergeSort
+
+- iterative version of MergeSort
+
+- suppose there are geese of different colors. You ask n geese how many other colored geese of their color there are. What's the minimum number of total geese?

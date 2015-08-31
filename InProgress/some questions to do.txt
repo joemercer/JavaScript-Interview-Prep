@@ -1,0 +1,26 @@
+some questions to do:
+
+"given a vector of strings of length n with each word having a length of m on average, group all anagrams into a cluster. Do this for the case that n >>>>>> m and in the most efficient way possible. Assume extra space allowed."
+
+"Give an array, find the pairs that their sum is equal to a target number."
+- or 3 numbers that sum
+- or 4, etc
+
+"do a dynamic programming solution"
+-cache the values as you go along
+
+The online test has time and space complexity limits on the solution
+
+Find left sibling of a given node in a tree
+
+Given a list of names. Find whether a particular name occurs inside a given tweet or not. If found return true otherwise false Time complexity should be less than O(n). 
+-build a trie
+
+
+
+
+
+# for resume
+
+focus on accomplishments and impact,
+don't just focus on what you did
