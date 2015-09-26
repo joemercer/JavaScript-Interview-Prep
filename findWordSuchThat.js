@@ -5,7 +5,7 @@
 var fs = require('fs');
 var words = fs.readFileSync('/usr/share/dict/words').toString().split("\n");
 
-var numLetters = 9;
+var numLetters = 7;
 
 // set up a cache of words with i letters
 var cache = {};
